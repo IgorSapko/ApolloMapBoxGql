@@ -1,0 +1,34 @@
+{
+  "name": "test-task-voypost",
+  "version": "1.0.0",
+  "description": "test-task",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorSapko/Node.git"
+  },
+  "author": "IgorSapko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorSapko/Node/issues"
+  },
+  "homepage": "https://github.com/IgorSapko/Node#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.15",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.15",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "apollo-server": "^2.22.2",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.5.0",
+    "mongoose": "^5.12.4",
+    "node-fetch": "^2.6.1"
+  }
+}
